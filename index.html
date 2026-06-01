@@ -1543,9 +1543,8 @@
             const pot = count * ENTRY_FEE;
             document.getElementById('pool-total').textContent = fmtMYR(pot);
             document.getElementById('pool-sub').textContent = `${count} Player${count !== 1 ? 's' : ''} × ${fmtMYR(ENTRY_FEE)}`;
-            document.getElementById('pool-1st').textContent = fmtMYR(pot * 0.6);
+            document.getElementById('pool-1st').textContent = fmtMYR(pot * 0.7);
             document.getElementById('pool-2nd').textContent = fmtMYR(pot * 0.3);
-            document.getElementById('pool-3rd').textContent = fmtMYR(pot * 0.1);
         }
 
         /* ===================================================
